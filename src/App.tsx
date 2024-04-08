@@ -179,7 +179,7 @@ function App() {
                 <span>{isEnglish ? "My Projects" : "Meus projetos"}</span>
               </div>
               <button
-                onClick={() => navigate("/portfolio/projects")}
+                onClick={() => navigate("/old-portfolio/projects")}
                 className="projects-more"
               >
                 {isEnglish ? "See more" : "Mais"}
@@ -189,7 +189,7 @@ function App() {
               <ProjectThumb
                 imageURL="https://cdn.discordapp.com/attachments/834602259425525820/1123815082430824468/Default_Red.png"
                 alt="Magix Thumb"
-                linkURL="/portfolio/projects#magix"
+                linkURL="/old-portfolio/projects#magix"
               />
               <ProjectThumb
                 imageURL="https://i.imgur.com/BRfB9Yl.png"

@@ -10,8 +10,8 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/portfolio" element={<App />} />
-        <Route path="/portfolio/projects" element={<Projects />} />
+        <Route path="/old-portfolio" element={<App />} />
+        <Route path="/old-portfolio/projects" element={<Projects />} />
         <Route path="*" element={<E404 />} />
       </Routes>
     </BrowserRouter>
