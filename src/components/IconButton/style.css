@@ -1,0 +1,77 @@
+.icon-button-sm,
+.icon-button-md,
+.icon-button-lg {
+  padding: 0.75rem 1rem;
+
+  border-radius: 0.5rem;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  line-height: 0;
+
+  cursor: pointer;
+}
+
+.icon-button-sm:focus,
+.icon-button-md:focus,
+.icon-button-lg:focus {
+  outline: 2px solid rgba(var(--blue-500));
+}
+
+.icon-button-primary,
+.icon-button-secondary,
+.icon-button-disabled {
+  transition: all 0.5s ease;
+}
+
+.icon-button-primary {
+  background-color: rgba(var(--violet-500));
+  color: rgba(var(--violet-50));
+}
+
+.icon-button-primary:hover {
+  background-color: rgba(var(--violet-800));
+  color: rgba(var(--violet-150));
+}
+
+.icon-button-secondary {
+  background-color: rgba(var(--blue-500));
+  color: rgba(var(--violet-50));
+}
+
+.icon-button-secondary:hover {
+  background-color: rgba(var(--blue-800));
+  color: rgba(var(--violet-150));
+}
+
+.icon-button-disabled {
+  background-color: rgba(var(--dark-600));
+  color: rgba(var(--violet-50));
+}
+
+.icon-button-disabled:hover {
+  background-color: rgba(var(--dark-600));
+  color: rgba(var(--violet-150));
+}
+
+.icon-button-icon {
+  margin-top: -0.125rem;
+
+  font-size: 18px;
+}
+
+.icon-button-sm {
+  height: 2.5rem;
+}
+
+.icon-button-md {
+  height: 3rem;
+}
+
+.icon-button-lg {
+  height: 3.5rem;
+}
